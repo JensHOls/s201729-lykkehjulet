@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/playFragment">
+
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.s201729lykkehjulet.fragment.PlayFragment"
+        android:label="PlayFragment" >
+        <action
+            android:id="@+id/action_playFragment_to_winFragment"
+            app:destination="@id/winFragment" />
+        <action
+            android:id="@+id/action_playFragment_to_lossFragment"
+            app:destination="@id/lossFragment" />
+        <action
+            android:id="@+id/action_playFragment_to_wordsListFragment"
+            app:destination="@id/wordsListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lossFragment"
+        android:name="com.example.s201729lykkehjulet.fragment.LossFragment"
+        android:label="LossFragment" >
+        <action
+            android:id="@+id/action_lossFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/winFragment"
+        android:name="com.example.s201729lykkehjulet.fragment.WinFragment"
+        android:label="WinFragment" >
+        <action
+            android:id="@+id/action_winFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wordsListFragment"
+        android:name="com.example.s201729lykkehjulet.fragment.WordsListFragment"
+        android:label="WordsListFragment" >
+        <action
+            android:id="@+id/action_wordsListFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+</navigation>

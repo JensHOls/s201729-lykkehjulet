@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">s201729 Lykkehjulet</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+
+    <string name="category">category: %s</string>
+    <string name="bonus">Spin wheel</string>
+    <string name="restart">Restart</string>
+    <string name="loss_message">You lost with a score of %d</string>
+    <string name="win_message">You won with a score of %d</string>
+    <string name="return_to_game">Return</string>
+    <string name="all_words">Cheat</string>
+    <string name="bonus_descriptor">Possible bonuses</string>
+
+    <string name="instructions">Guess the hidden word</string>
+    <string name="skip">Skip</string>
+    <string name="submit">Submit</string>
+    <string name="wheel_of_fortune">Wheel of fortune</string>
+    <string name="score">Score: %d</string>
+    <string name="lives">Lives: %d</string>
+    <string name="word_count">%d of %d words</string>
+    <string name="enter_your_word">Guess a letter</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_scored">"You scored: %d"</string>
+    <string name="exit">Exit</string>
+    <string name="play_again">Play Again</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="type_letter">Type a letter</string>
+    <string name="spin_wheel">Spin wheel of fortune</string>
+    <string name="spin_wheel_again">Spin wheel of fortune again</string>
+</resources>
